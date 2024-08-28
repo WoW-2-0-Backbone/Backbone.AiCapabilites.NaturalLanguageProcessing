@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <Title>WoW2.Backbone.AiCapabilities.NaturalLanguageProcessing.TextCompletion.OpenAi</Title>
+        <PackageId>WoW2.Backbone.AiCapabilities.NaturalLanguageProcessing.TextCompletion.OpenAi</PackageId>
+        <Description>OpenAI based Text Completion services for Natural Language Processing</Description>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageTags>openai, text-completion, natural-language-processing, ai-capabilities</PackageTags>
+        <Version>8.0.0-alpha.0</Version>
+        <Authors>WoW 2.0 Team</Authors>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageProjectUrl>https://github.com/WoW-2-0-Backbone/Backbone.AiCapabilities.NaturalLanguageProcessing</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/WoW-2-0-Backbone/Backbone.AiCapabilities.NaturalLanguageProcessing.TextCompletion.OpenAi</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageIcon>wow2.png</PackageIcon>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.SemanticKernel" Version="1.18.1-rc"/>
+    </ItemGroup>
+    
+    <ItemGroup>
+        <PackageReference Include="WoW2.Backbone.AiCapabilities.NaturalLanguageProcessing.TextCompletion.Abstractions" Version="8.0.0-alpha.0"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Include="wow2.png" Pack="true" PackagePath=""/>
+        <None Include="README.md" Pack="true" PackagePath=""/>
+    </ItemGroup>
+
+</Project>
