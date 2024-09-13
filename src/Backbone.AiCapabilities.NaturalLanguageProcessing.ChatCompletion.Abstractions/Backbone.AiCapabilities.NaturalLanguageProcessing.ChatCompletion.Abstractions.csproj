@@ -5,12 +5,12 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
-        <Title>WoW2.Backbone.AiCapabilities.NaturalLanguageProcessing.TextCompletion.Abstractions</Title>
-        <PackageId>WoW2.Backbone.AiCapabilities.NaturalLanguageProcessing.TextCompletion.Abstractions</PackageId>
-        <Description>Abstractions for Text Completion AI Capabilities</Description>
+        <Title>WoW2.Backbone.AiCapabilities.NaturalLanguageProcessing.ChatCompletion.Abstractions</Title>
+        <PackageId>WoW2.Backbone.AiCapabilities.NaturalLanguageProcessing.ChatCompletion.Abstractions</PackageId>
+        <Description>Abstractions for Chat Completion AI Capabilities</Description>
         <PackageReadmeFile>README.md</PackageReadmeFile>
-        <PackageTags>natural-language-processing, ai-capabilites, text-completion, prompt-execution</PackageTags>
-        <Version>8.0.0-alpha.0</Version>
+        <PackageTags>natural-language-processing, ai-capabilities, chat-completion</PackageTags>
+        <Version>8.0.0-alpha.3</Version>
         <Authors>WoW 2.0 Team</Authors>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <PackageProjectUrl>https://github.com/WoW-2-0-Backbone/Backbone.AiCapabilities.NaturalLanguageProcessing</PackageProjectUrl>
@@ -23,5 +23,5 @@
         <None Include="wow2.png" Pack="true" PackagePath=""/>
         <None Include="README.md" Pack="true" PackagePath=""/>
     </ItemGroup>
-    
+
 </Project>
